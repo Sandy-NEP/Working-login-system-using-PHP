@@ -1,0 +1,14 @@
+/* auth.css */
+@import 'base.css';
+@import 'theme.css';
+@import 'background-animations.css'; /* Add this line */
+@import 'auth-container.css';
+@import 'typography.css';
+@import 'form.css';
+@import 'password-toggle.css';
+@import 'buttons.css';
+@import 'alerts.css';
+@import 'animations.css';
+@import 'password-strength.css';
+@import 'social-login.css';
+@import 'responsive.css';

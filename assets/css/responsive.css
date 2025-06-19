@@ -1,0 +1,15 @@
+/* responsive.css */
+@media (max-width: 576px) {
+    .auth-container {
+        padding: 1.8rem;
+        margin: 0 15px;
+    }
+    
+    .auth-container h2 {
+        font-size: 1.8rem;
+    }
+    
+    .form-group input {
+        padding: 12px 15px;
+    }
+}

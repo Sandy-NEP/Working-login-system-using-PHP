@@ -1,0 +1,48 @@
+<!--<div class="profile-icon">
+                <?php //echo strtoupper(substr($_SESSION['username'], 0, 1)); ?>
+                <div class="profile-dropdown">
+                   
+                    <a href="../auth/logout.php">Logout</a>
+                    <a href="../profile/delete.php" class="delete">Delete Account</a>
+                </div> --
+
+<?php
+// includes/nav.php
+//if (!isset($_SESSION['user_id'])) {
+  //  return;
+//}
+?>
+<nav class="navbar">
+    <div class="nav-container">
+        <ul class="nav-links">
+            <li><a href="../pages/home.php">Home</a></li>
+            <li><a href="../pages/content.php">Content</a></li>
+            <li><a href="../pages/about.php">About</a></li>
+            <li><a href="../pages/contact.php">Contact</a></li>
+        </ul>
+        <b><a href="../profile/edit.php"> <?php //echo strtoupper(substr($_SESSION['username'], 0, 1)); ?> <div class="user-profile">
+            
+            </div> </a></b>
+        
+        </div>
+    </div>
+</nav>
+<style>
+    b{
+        border: 2px solid #000;
+        border-radius: 50%;
+        padding: 10px;
+        textdecoration: none;
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+        transition: background-color 0.3s, color 0.3s;
+        text-decoration: none;
+        
+    }
+</style>
+
+

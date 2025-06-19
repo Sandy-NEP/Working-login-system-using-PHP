@@ -1,0 +1,58 @@
+/* auth-container.css */
+.auth-container {
+    background: rgba(10, 10, 30, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 480px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin: 20px;
+    transition: all var(--transition-speed) ease;
+}
+
+.auth-container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent 0%,
+        rgba(0, 240, 255, 0.05) 30%,
+        rgba(123, 45, 255, 0.05) 70%,
+        transparent 100%
+    );
+    transform: rotate(30deg);
+    z-index: -1;
+    animation: gradientRotate 20s linear infinite;
+}
+
+@keyframes gradientRotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+/* auth-container.css */
+.auth-container {
+    background: rgba(10, 10, 30, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    /* Remove any white background references */
+  }
+  
+  /* Remove any white background from form elements */
+  .form-group input {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-light);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }

@@ -1,0 +1,48 @@
+/* typography.css */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap');
+
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    text-shadow: var(--glow-effect);
+}
+
+.auth-container p {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.auth-container a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all var(--transition-speed) ease;
+    position: relative;
+}
+
+.auth-container a:hover {
+    color: #fff;
+    text-shadow: var(--glow-effect);
+}
+
+.auth-container a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: var(--primary-color);
+    transition: width var(--transition-speed) ease;
+}
+
+.auth-container a:hover::after {
+    width: 100%;
+}
