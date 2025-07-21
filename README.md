@@ -34,9 +34,9 @@ This project is a **Working Login System using PHP**. It provides a user authent
 
 <table>
   <tr>
-    <td align="center"><img src="assets/preview/signup.png" width="300"><br>Signup Page</td>
-    <td align="center"><img src="assets/preview/login.png" width="300"><br>Login Page</td>
-    <td align="center"><img src="assets/preview/forgot.png" width="300"><br>Forgot Password</td>
+    <td align="center"><img src="assets/img/signup.png" width="300"><br>Signup Page</td>
+    <td align="center"><img src="assets/img/login.png" width="300"><br>Login Page</td>
+    <td align="center"><img src="assets/img/system.png" width="300"><br>Inside ui</td>
   </tr>
 </table>
 
