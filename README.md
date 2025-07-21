@@ -145,7 +145,7 @@ If you find bugs or have suggestions, open an issue.
 MIT License © Sandesh Ghimire
 
 📬 Contact Me
-📧 Email: your-email@example.com
+📧 Email: sandeshghimire4004@gmail.com
 🐱 GitHub: @Sandy-NEP
 
 <div align="center"> <img src="assets/preview/responsive-demo.gif" width="600" alt="Responsive Design Demo"> <br><br> <strong>✨ Thanks for stopping by! Don’t forget to ⭐ the repo ✨</strong> </div> ```
